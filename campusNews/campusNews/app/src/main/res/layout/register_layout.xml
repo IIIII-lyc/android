@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/main_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/main_icon" />
+
+    <EditText
+        android:id="@+id/newAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:hint="用户名"
+        android:textColorHint="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/newPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:hint="密码"
+        android:textColorHint="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/newPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:hint="确认密码"
+        android:textColorHint="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/newRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:text="注册" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Campus News</string>
+    <string name="item_news">新闻</string>
+    <string name="item_friends">好友</string>
+    <string name="item_takephotos">随手拍</string>
+    <string name="item_homepages">主页</string>
+    <string name="title_activity_radio_button_fragment_main3">RadioButtonFragmentMainActivity3
+    </string>
+    <!-- Strings used for viewpager for radiobutton -->
+    <string name="first_viewpager_label">First ViewPager</string>
+    <string name="second_viewpager_label">Second ViewPager</string>
+    <string name="third_viewpager_label">Third ViewPager</string>
+    <string name="fourth_viewpager_label">Fourth ViewPager</string>
+
+
+</resources>
